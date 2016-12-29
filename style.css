@@ -24,7 +24,7 @@ body {
   margin: 0 auto;
   background: #75915c;
   color: #fCfCfC;
-  border: 1px solid black; }
+  border: 1px solid silver; }
 
 .header, .row2 {
   background: #fCfCfC;
@@ -294,7 +294,7 @@ button:hover {
   width: 100%; }
 
 @media (max-width: 767px) {
-  /* For mobile */
+  /* For mobile*/
   .foto {
     display: inline-block;
     text-align: center;
@@ -352,7 +352,7 @@ button:hover {
     width: 100%; } }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  /* For tablets */
+  /* For tablets*/
   .asidepost {
     float: left;
     width: 50%; }
