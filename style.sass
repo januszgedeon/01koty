@@ -38,6 +38,50 @@ body
   padding-top: 50px
   font-size: 30px
 
+
+.fly-in-text 
+  list-style: none
+  
+
+.fly-in-text li 
+  display: inline-block
+  color: #75915c
+  font-weight: 700
+  font-size: 3rem
+  opacity: 1
+  transition: all 2.5s ease
+
+
+.fly-in-text.hidden li 
+  opacity: 0
+
+.fly-in-text.hidden li:nth-child(1)
+  transform: translateX(-200px) translateY(-200px)
+.fly-in-text.hidden li:nth-child(2)
+  transform: translateX(20px) translateY(100px)
+.fly-in-text.hidden li:nth-child(3)
+  transform: translateX(-150px) translateY(-80px)
+.fly-in-text.hidden li:nth-child(4)
+  transform: translateX(10px) translateY(-200px)
+.fly-in-text.hidden li:nth-child(5)
+  transform: translateX(-300px) translateY(200px)
+.fly-in-text.hidden li:nth-child(6)
+  transform: translateX(-20px) translateY(-20px)
+.fly-in-text.hidden li:nth-child(7)
+  transform: translateX(30px) translateY(400px)
+.fly-in-text.hidden li:nth-child(8)
+  transform: translateX(-50px) translateY(-50px)
+.fly-in-text.hidden li:nth-child(9)
+  transform: translateX(120px) translateY(320px)
+.fly-in-text.hidden li:nth-child(10)
+  transform: translateX(-90px) translateY(-390px)
+
+
+
+
+
+
+
 .subheader
   font-size: 20px
 
@@ -157,12 +201,12 @@ form
       color: #dddddd
 
 .image
-	width: 100%
-	border: 1px solid #fCfCfC
-	margin-bottom: 5px
-	height: 200px
-	&:hover
-		-webkit-filter: grayscale(100%)
+  width: 100%
+  border: 1px solid #fCfCfC
+  margin-bottom: 5px
+  height: 200px
+  &:hover
+    -webkit-filter: grayscale(100%)
 
 .image1
   background: url("https://images.pexels.com/photos/115011/cat-face-close-view-115011.jpeg?h=350&auto=compress") top center
